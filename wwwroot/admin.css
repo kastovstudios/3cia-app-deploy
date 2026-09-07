@@ -1,8 +1,8 @@
 body{
     margin:0;
     font-family:Arial;
-    background:#151411;
-    color:white;
+    background:#000000;
+    color:#cccccc;
 }
 
 .container{
@@ -21,15 +21,15 @@ body{
     justify-content:center;
     align-items:center;
 
-    color:white;
+    color:#cccccc;
     font-size:24px;
 }
 
 .spinner{
     width:90px;
     height:90px;
-    border:12px solid #4a443a;
-    border-top:12px solid white;
+    border:12px solid #9f111b;
+    border-top:12px solid #cccccc;
     border-radius:50%;
     animation:girar 1s linear infinite;
     margin-bottom:25px;
@@ -50,7 +50,7 @@ body{
 
 .sidebar{
     width:220px;
-    background:#23211d;
+    background:#292c37;
     padding:20px;
     box-sizing:border-box;
 }
@@ -64,16 +64,16 @@ body{
     padding:12px;
     margin-bottom:10px;
 
-    background:#302d27;
+    background:#9f111b;
     border:none;
-    color:white;
+    color:#cccccc;
 
     cursor:pointer;
     border-radius:6px;
 }
 
 .sidebar button:hover{
-    background:#3a352e;
+    background:#b11623;
 }
 
 /* =========================
@@ -92,7 +92,7 @@ body{
 ========================= */
 
 .card{
-    background:#23211d;
+    background:#292c37;
     padding:20px;
     border-radius:10px;
 
@@ -124,9 +124,9 @@ select{
     padding:12px;
     margin-bottom:10px;
 
-    background:#302d27;
+    background:#9f111b;
     border:none;
-    color:white;
+    color:#cccccc;
 
     cursor:pointer;
     border-radius:6px;
@@ -149,7 +149,7 @@ button{
 }
 
 .item{
-    background:#23211d;
+    background:#292c37;
 
     padding:12px;
     margin-bottom:10px;
@@ -162,7 +162,7 @@ button{
 }
 
 .admin{
-    color:#8f887d;
+    color:#cccccc;
     font-size:12px;
     font-style:italic;
 }
@@ -175,7 +175,7 @@ button{
     width:100%;
     max-width:700px;
 
-    background:#23211d;
+    background:#292c37;
 
     border-radius:8px;
     overflow:hidden;
@@ -187,7 +187,7 @@ button{
 
     padding:12px;
 
-    background:#302d27;
+    background:#9f111b;
     font-weight:bold;
 }
 
@@ -202,11 +202,11 @@ button{
 
     padding:12px;
 
-    border-top:1px solid #302d27;
+    border-top:1px solid #9f111b;
 }
 
 .grid-row:hover{
-    background:#3a352e;
+    background:#b11623;
 }
 
 .grid-header span,
@@ -225,24 +225,24 @@ button{
 }
 
 .resultados-clientes{
-    background:#23211d;
+    background:#292c37;
     border-radius:8px;
     margin-top:5px;
 
     max-height:250px;
     overflow-y:auto;
 
-    border:1px solid #302d27;
+    border:1px solid #9f111b;
 }
 
 .resultado-item{
     padding:10px;
     cursor:pointer;
-    border-bottom:1px solid #302d27;
+    border-bottom:1px solid #9f111b;
 }
 
 .resultado-item:hover{
-    background:#302d27;
+    background:#9f111b;
 }
 
 /* =========================
@@ -342,7 +342,7 @@ button{
 
 .grid-cliente-vazio{
     padding:14px 12px;
-    color:#b8b0a2;
+    color:#cccccc;
 }
 
 .pesquisa-historico{
@@ -395,29 +395,29 @@ body > * {
 
 /* ===== Paleta inspirada no cardápio Grêmio dos Cabos ===== */
 :root {
-    --menu-bg: #151411;
-    --menu-panel: #23211d;
-    --menu-panel-2: #302d27;
-    --menu-hover: #3a352e;
-    --menu-accent: #f2a72b;
-    --menu-text: #f7f4ee;
-    --menu-muted: #b8b0a2;
-    --menu-border: #4a443a;
+    --menu-bg: #000000;
+    --menu-panel: #292c37;
+    --menu-panel-2: #9f111b;
+    --menu-hover: #b11623;
+    --menu-accent: #b11623;
+    --menu-text: #cccccc;
+    --menu-muted: #cccccc;
+    --menu-border: #9f111b;
 }
 
 body {
     background-color: var(--menu-bg);
     background-image:
-        linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.012) 1px, transparent 1px),
-        radial-gradient(circle at 18% 20%, rgba(242,167,43,.035), transparent 26%),
-        radial-gradient(circle at 82% 72%, rgba(242,167,43,.025), transparent 28%);
+        linear-gradient(rgba(204,204,204,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(204,204,204,.012) 1px, transparent 1px),
+        radial-gradient(circle at 18% 20%, rgba(177,22,35,.035), transparent 26%),
+        radial-gradient(circle at 82% 72%, rgba(177,22,35,.025), transparent 28%);
     background-size: 3px 3px, 5px 5px, auto, auto;
     color: var(--menu-text);
 }
 
 .sidebar {
-    background: #1d1b18;
+    background: #292c37;
     border-right: 1px solid var(--menu-border);
 }
 
@@ -453,16 +453,16 @@ body {
 
 button:not(.sidebar button):not(#cobrar) {
     background: var(--menu-accent);
-    color: #181510;
+    color: #000000;
     font-weight: 700;
 }
 
 button:not(.sidebar button):not(#cobrar):hover { filter: brightness(1.08); }
 
 input, select {
-    background: #f3efe7;
-    color: #171512;
-    border: 1px solid #c9b891;
+    background: #cccccc;
+    color: #000000;
+    border: 1px solid #9f111b;
 }
 
 .grid-cliente-vazio, .admin { color: var(--menu-muted); }
@@ -485,10 +485,10 @@ input, select {
     height:25px;
     padding:0;
     margin:0;
-    border:1px solid rgba(255, 174, 59, .55);
+    border:1px solid rgba(177, 22, 35, .55);
     border-radius:5px;
-    background:rgba(255, 174, 59, .10);
-    color:#ffae3b;
+    background:rgba(177, 22, 35, .10);
+    color:#b11623;
     font-size:13px;
     line-height:23px;
     text-align:center;
@@ -496,5 +496,158 @@ input, select {
 }
 
 .grid-sort-btn:hover{
-    background:rgba(255, 174, 59, .20);
+    background:rgba(177, 22, 35, .20);
+}
+
+/* ===== Tema refinado: cinza claro + grafite + vermelho controlado ===== */
+:root {
+    --menu-bg: #171a20;
+    --menu-panel: #242830;
+    --menu-panel-2: #10141a;
+    --menu-hover: #b71c23;
+    --menu-accent: #c3222a;
+    --menu-accent-soft: #442126;
+    --menu-text: #e5e7eb;
+    --menu-muted: #a1a8b3;
+    --menu-border: #3a404c;
+    --menu-input-bg: #1d2129;
+    --menu-button-text: #ffffff;
+}
+
+body {
+    background-color: var(--menu-bg);
+    background-image:
+        linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px),
+        radial-gradient(circle at 12% 14%, rgba(195,34,42,.10), transparent 24%),
+        radial-gradient(circle at 86% 76%, rgba(195,34,42,.07), transparent 26%);
+    background-size: 18px 18px, 18px 18px, auto, auto;
+    color: var(--menu-text);
+}
+
+body::before {
+    opacity: 0.06;
+}
+
+.sidebar {
+    background: var(--menu-panel-2);
+    border-right: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 6px 0 20px rgba(15, 23, 42, 0.08);
+}
+
+.sidebar h3 {
+    color: #eef2f7;
+}
+
+.sidebar button,
+#cobrar {
+    background: rgba(255,255,255,0.04);
+    color: #eef2f7;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: none;
+}
+
+.sidebar button:hover,
+#cobrar:hover {
+    background: var(--menu-accent);
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+    color: var(--menu-text);
+}
+
+.card,
+.item,
+.grid-container,
+.resultados-clientes,
+.grid-clientes-container {
+    background: var(--menu-panel);
+    color: var(--menu-text);
+    border: 1px solid var(--menu-border);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.30);
+}
+
+.grid-header {
+    background: #1a1f27;
+    color: var(--menu-text);
+    border-bottom: 1px solid var(--menu-border);
+}
+
+.grid-row,
+.resultado-item,
+.grid-row span,
+.grid-header span {
+    color: var(--menu-text);
+}
+
+.grid-row,
+.resultado-item {
+    border-color: var(--menu-border);
+}
+
+.grid-row:hover,
+.resultado-item:hover,
+.grid-cliente-row:hover {
+    background: #2a3039;
+}
+
+input,
+select {
+    background: var(--menu-input-bg);
+    color: var(--menu-text);
+    border: 1px solid var(--menu-border);
+    box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+input::placeholder {
+    color: #8a94a6;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: rgba(198, 31, 38, 0.45);
+    box-shadow: 0 0 0 4px rgba(198, 31, 38, 0.12);
+}
+
+button:not(.sidebar button):not(#cobrar),
+.grid-sort-btn {
+    background: var(--menu-accent);
+    color: var(--menu-button-text);
+    border: none;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(198, 31, 38, 0.18);
+}
+
+button:not(.sidebar button):not(#cobrar):hover,
+.grid-sort-btn:hover {
+    background: var(--menu-hover);
+    filter: none;
+}
+
+.grid-sort-btn {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.loading-overlay {
+    background: rgba(31, 41, 55, 0.78);
+    color: #eef2f7;
+    backdrop-filter: blur(4px);
+}
+
+.spinner {
+    border-color: rgba(255,255,255,0.20);
+    border-top-color: var(--menu-accent);
+}
+
+.grid-cliente-vazio,
+.admin,
+.loading-texto {
+    color: var(--menu-muted);
 }

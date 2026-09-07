@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
-    background: #151411;
-    color: white;
+    background: #000000;
+    color: #cccccc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: #23211d;
+    background: #292c37;
     padding: 30px;
     border-radius: 10px;
     width: 400px;
@@ -20,7 +20,7 @@ body {
 }
 
 #lista div {
-    background: #302d27;
+    background: #9f111b;
     padding: 8px;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -44,14 +44,14 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background: #f2a72b;
+    background: #b11623;
     border: none;
-    color: white;
+    color: #cccccc;
     cursor: pointer;
 }
 
 a {
-    color: #f2a72b;
+    color: #b11623;
     text-decoration: none;
 }
 
@@ -68,9 +68,9 @@ a {
 /**/
 
 body {
-    background: #151411;
+    background: #000000;
     font-family: Arial;
-    color: white;
+    color: #cccccc;
     margin: 0;
 }
 
@@ -93,7 +93,7 @@ body {
 
 /* CARD */
 .card {
-    background: #23211d;
+    background: #292c37;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -109,10 +109,10 @@ body {
 }
 
 .controle button {
-    background: #f2a72b;
+    background: #b11623;
     border: none;
     padding: 8px 12px;
-    color: white;
+    color: #cccccc;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
@@ -134,9 +134,9 @@ body {
     max-width:500px;
     z-index:999;
     padding:15px;
-    background:#f2a72b;
+    background:#b11623;
     border:none;
-    color:white;
+    color:#cccccc;
     font-size:18px;
     border-radius:12px;
     cursor:pointer;
@@ -151,10 +151,10 @@ body {
 }
 
 .card {
-    border: 1px solid #4a443a;
+    border: 1px solid #9f111b;
     padding: 15px;
     text-align: center;
-    background-color: #24221e;
+    background-color: #292c37;
 }
 
 .nomeProduto {
@@ -163,7 +163,7 @@ body {
 }
 
 .precoProduto {
-    color: #c9c2b7;
+    color: #cccccc;
     margin-bottom: 10px;
 }
 
@@ -176,11 +176,11 @@ body {
 }
 
 .historico-item {
-    background: #23211d;
+    background: #292c37;
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 8px;
-    border: 1px solid #4a443a;
+    border: 1px solid #9f111b;
 }
 
 /* LINHAS */
@@ -194,17 +194,17 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    color: #b8b0a2;
+    color: #cccccc;
     margin-top: 5px;
 }
 
 /* DESTAQUES */
 .produto {
-    color: #fff;
+    color: #cccccc;
 }
 
 .total {
-    color: #f2a72b;
+    color: #b11623;
 }
 
 .historico-total {
@@ -215,7 +215,7 @@ body {
 }
 
 .admin {
-    color: gray;
+    color: #cccccc;
     font-size: 12px;
     margin-left: 5px;
 }
@@ -229,7 +229,7 @@ body {
 
 .admin-info {
     font-size: 11px;
-    color: #8f887d;
+    color: #cccccc;
     font-style: italic;
 }
 
@@ -263,7 +263,7 @@ body {
 
     box-sizing:border-box;
 
-    background:#1b1916;
+    background:#292c37;
 }
 
 .sidebar button{
@@ -346,7 +346,7 @@ body {
     }
 
     .sidebar::-webkit-scrollbar-thumb{
-        background:#3a352e;
+        background:#b11623;
     }
 }
 
@@ -357,7 +357,7 @@ body > * {
 }
 
 /* Marca d'água visível dentro dos painéis das páginas do usuário.
-   Os painéis usam fundo sólido (#23211d), por isso a marca aplicada apenas
+   Os painéis usam fundo sólido (#292c37), por isso a marca aplicada apenas
    no body ficava escondida atrás deles. */
 .container {
     position: relative;
@@ -396,29 +396,29 @@ body > * {
 
 /* ===== Paleta inspirada no cardápio Grêmio dos Cabos ===== */
 :root {
-    --menu-bg: #151411;
-    --menu-panel: #23211d;
-    --menu-panel-2: #302d27;
-    --menu-accent: #f2a72b;
-    --menu-text: #f7f4ee;
-    --menu-muted: #b8b0a2;
-    --menu-border: #4a443a;
+    --menu-bg: #000000;
+    --menu-panel: #292c37;
+    --menu-panel-2: #9f111b;
+    --menu-accent: #b11623;
+    --menu-text: #cccccc;
+    --menu-muted: #cccccc;
+    --menu-border: #9f111b;
 }
 
 body {
     background-color: var(--menu-bg);
     background-image:
-        linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,.012) 1px, transparent 1px),
-        radial-gradient(circle at 18% 20%, rgba(242,167,43,.035), transparent 26%),
-        radial-gradient(circle at 82% 72%, rgba(242,167,43,.025), transparent 28%);
+        linear-gradient(rgba(204,204,204,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(204,204,204,.012) 1px, transparent 1px),
+        radial-gradient(circle at 18% 20%, rgba(177,22,35,.035), transparent 26%),
+        radial-gradient(circle at 82% 72%, rgba(177,22,35,.025), transparent 28%);
     background-size: 3px 3px, 5px 5px, auto, auto;
     color: var(--menu-text);
 }
 
 button, .controle button, .btn-finalizar {
     background: var(--menu-accent);
-    color: #181510;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -433,3 +433,143 @@ a, .total { color: var(--menu-accent); }
 }
 
 .precoProduto, .linha2, .admin-info { color: var(--menu-muted); }
+
+/* ===== Tema refinado: cinza claro + grafite + vermelho controlado ===== */
+:root {
+    --menu-bg: #171a20;
+    --menu-panel: #242830;
+    --menu-panel-2: #10141a;
+    --menu-hover: #b71c23;
+    --menu-accent: #c3222a;
+    --menu-accent-soft: #442126;
+    --menu-text: #e5e7eb;
+    --menu-muted: #a1a8b3;
+    --menu-border: #3a404c;
+    --menu-input-bg: #1d2129;
+    --menu-button-text: #ffffff;
+}
+
+body {
+    background-color: var(--menu-bg);
+    background-image:
+        linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px),
+        radial-gradient(circle at 15% 15%, rgba(195,34,42,.10), transparent 24%),
+        radial-gradient(circle at 85% 78%, rgba(195,34,42,.07), transparent 26%);
+    background-size: 18px 18px, 18px 18px, auto, auto;
+    color: var(--menu-text);
+}
+
+.container,
+.card,
+.historico-item,
+#lista div {
+    background: var(--menu-panel);
+    color: var(--menu-text);
+    border: 1px solid var(--menu-border);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.30);
+}
+
+.container {
+    backdrop-filter: blur(2px);
+}
+
+.container::before {
+    opacity: 0.06;
+}
+
+input,
+select,
+textarea {
+    background: var(--menu-input-bg);
+    color: var(--menu-text);
+    border: 1px solid var(--menu-border);
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #8a94a6;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: rgba(198, 31, 38, 0.45);
+    box-shadow: 0 0 0 4px rgba(198, 31, 38, 0.12);
+}
+
+button,
+.controle button,
+.btn-finalizar,
+.topbar button {
+    background: var(--menu-accent);
+    color: var(--menu-button-text);
+    border: none;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(198, 31, 38, 0.20);
+}
+
+button:hover,
+.controle button:hover,
+.btn-finalizar:hover,
+.topbar button:hover {
+    background: var(--menu-hover);
+    filter: none;
+}
+
+.btn-finalizar {
+    color: var(--menu-button-text);
+}
+
+.menu button,
+.topbar button {
+    background: var(--menu-panel-2);
+    color: #eef2f7;
+    box-shadow: 0 8px 18px rgba(52, 54, 61, 0.18);
+}
+
+.menu button:hover,
+.topbar button:hover {
+    background: #1b2028;
+}
+
+.gridProdutos .card,
+.grid .card,
+.historico-item,
+#lista div {
+    border-left: 4px solid rgba(198, 31, 38, 0.85);
+}
+
+.nomeProduto,
+.linha1,
+h1, h2, h3, h4 {
+    color: var(--menu-text);
+}
+
+.precoProduto,
+.linha2,
+.admin,
+.admin-info,
+.info,
+.codigo {
+    color: var(--menu-muted);
+}
+
+a,
+.total,
+.historico-total {
+    color: var(--menu-accent);
+}
+
+.controle span,
+.produto {
+    color: var(--menu-text);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        background: var(--menu-panel-2);
+    }
+}

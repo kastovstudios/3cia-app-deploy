@@ -8,8 +8,8 @@
 
 <style>
 body{
-    background:#151411;
-    color:white;
+    background:var(--menu-bg);
+    color:var(--menu-text);
     font-family:Arial;
     margin:0;
 }
@@ -21,7 +21,7 @@ body{
 }
 
 .card{
-    background:#23211d;
+    background:var(--menu-panel);
     padding:20px;
     border-radius:10px;
 }
@@ -30,7 +30,7 @@ body{
     display:flex;
     justify-content:space-between;
     padding:10px 0;
-    border-bottom:1px solid #302d27;
+    border-bottom:1px solid var(--menu-panel-2);
 }
 
 .total{
@@ -38,17 +38,17 @@ body{
     text-align:right;
     font-size:22px;
     font-weight:bold;
-    color:#f2a72b;
+    color:var(--menu-accent);
 }
 
 .info{
-    color:#b8b0a2;
+    color:var(--menu-muted);
     margin-bottom:20px;
 }
 
 .codigo{
     margin-top:15px;
-    color:#b8b0a2;
+    color:var(--menu-muted);
     font-size:13px;
 }
 
@@ -58,8 +58,8 @@ button{
     padding:15px;
     border:none;
     border-radius:8px;
-    background:#f2a72b;
-    color:white;
+    background:var(--menu-accent);
+    color:var(--menu-button-text);
     font-size:16px;
 }
 
@@ -78,13 +78,13 @@ button{
 
     padding:10px 18px;
 
-    background:#302d27;
+    background:var(--menu-panel-2);
 
     border:none;
 
     border-radius:8px;
 
-    color:white;
+    color:var(--menu-button-text);
 
     cursor:pointer;
 
@@ -92,7 +92,7 @@ button{
 }
 
 .topbar button:hover{
-    background:#3a352e;
+    background:var(--menu-accent);
 }
 
 </style>
