@@ -874,7 +874,7 @@ app.MapGet("/admin/mensagens-cobranca/{periodoId}",
 
         string mensagem =
             $"Bom dia {nomeCompleto}!\n" +
-            $"Segue o valor do que consumiu na CCAP durante o mês de {nomePeriodo}.\n" +
+            $"Segue o valor do que consumiu na 3°CIA durante o mês anterior.\n" +
             $"Valor: R$ {total:F2}.\n\n" +
             $"Pix: 12981235834\n\n" +
             $"*C6 Bank*\n\n" +
@@ -1261,7 +1261,7 @@ app.MapPost("/admin/cobrar-clientes/{periodoId}", async (int periodoId, HttpRequ
     {
         string mensagem =
             $"Bom dia {cliente.Posto} {cliente.Nome}!\n" +
-            $"Segue o valor do que consumiu na CCAP durante o mês anterior\n" +
+            $"Segue o valor do que consumiu na 3°CIA durante o mês anterior\n" +
             $"Valor: R$ {cliente.Total:F2}.\n\n" +
             $"Pix: 12981235834\n\n" +
             $"*C6 Bank*\n\n"+
@@ -1362,7 +1362,7 @@ app.MapPost("/admin/cobrar-cliente", async (CobrarClienteDTO dto, HttpRequest re
 
     string mensagem =
         $"Bom dia {posto} {nome}!\n" +
-        $"Segue o valor do que consumiu na CCAP durante o mês anterior\n" +
+        $"Segue o valor do que consumiu na 3°CIA durante o mês anterior\n" +
         $"Valor: R$ {total:F2}.\n\n" +
         $"Pix: 12981235834\n\n" +
         $"*C6 Bank*\n\n" +
